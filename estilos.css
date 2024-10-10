@@ -1,0 +1,322 @@
+
+
+
+body{
+	
+	margin:0%;
+}
+
+
+header{
+		
+	width:100%;
+	height:auto;
+	display:flex;
+	align-content: space-around;
+	background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(195,55,34,1) 100%);
+
+}
+
+h1{
+	color:#6a262a;
+	
+}
+
+
+
+nav{
+	width:85%;
+	height:auto;
+	background-color:none;
+	display:flex;
+	flex-direction: row;
+	justify-content:space-around;	
+	
+}
+
+
+nav a:link{
+	color:#de9c21;
+	font-weight:bold; /*negrita*/
+	width:20%;
+	height:40px;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	transition:all 1s;
+	text-decoration:none;
+	margin-top:20px;
+	
+}	 
+nav a:hover{
+	color:white;
+	background-color:black;
+	background-color:#de9c21;
+	
+}
+a:visited{
+color : #de9c21;
+}
+
+.fo{
+ 
+   padding:1%;    
+}
+
+.logo{
+	
+	width:30%;
+	height:auto;
+	background-color:none;
+}
+
+.foto{
+	width:100%;
+	height:auto;
+	
+	
+	
+}
+
+.texto{
+    width:100%;
+	height:auto;
+	font-size:10px;
+	display:column;
+	justify-content:center;
+	text-align:center;
+	background-color:white;
+	line-height:20px;
+	margin:auto;
+}
+
+
+.texto2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-content:center;
+	margin:2%;
+	font-size:14px;
+	line-height:18px;
+}
+
+
+.list{
+	font-size: 14px;
+	line-height:18px;
+	justify-content:flex-start;
+}
+.habit{
+	
+	display:flex;
+	margin:10px;
+	padding:1%;
+}
+
+
+h2{
+	font-size:18px;
+	color:#bf8300;
+	text-align:center;
+}
+
+p{
+	color:grey;
+	font-family: Bell MT;
+	font-size:20px;
+	align-content:left;
+	padding:1%;
+	
+}
+
+.tarjetas{
+	
+	 width:100%;
+	 height:auto;/*280px;*/
+     background-color:white;
+	 display:flex;
+	 justify-content:space-evenly;
+	 flex-wrap:wrap;
+}
+
+.tar{
+	 width:25%;
+	 height:auto;
+	 background-color:white;
+	 display:flex;
+	 flex-wrap:wrap;
+	 justify-content:space-around;
+     margin-bottom:100px;
+     border-style:solid;
+     border-width:2px;
+     border-color:#d6d4d2;
+	 border-radius:10%;
+	 padding:1%;
+	 line-height:30px;
+	 
+	 
+}
+    
+	 
+footer{
+	width:100%;
+	height:auto;
+	background-color:black;
+	display:flex;
+	align-items:center;
+	justify-content:flex-start;
+	background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(195,55,34,1) 100%);
+}
+.contacto{
+	
+	width:50%;
+	height:auto;
+	display:column;
+	justify-content: space-around;
+	align-items:center;
+	
+	
+}
+.contacto p{
+	
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+	
+	
+}
+
+li{
+	color:grey;	
+	font-family: Bell MT;
+	font-size:20px;
+	line-height:30px;
+}
+
+
+@media screen and (max-width:800px)/*cuando sea mayor a 800px de ancho*/
+{
+	 header, main, footer{
+	 display:flex;
+	 flex-direction:column;
+	 margin-top:2px;
+	 align-content:center;
+	 }
+	
+	header{
+		align-items:center;
+	}
+	.logo{
+		width:100%;
+		height:auto;
+		display:flex;
+		justify-content:center;
+	}
+	
+	.logo img{
+		width:98%;
+		height:auto;
+		
+	}
+	
+	img{
+     width:45%;
+	 height:auto;
+	
+    }
+	
+	nav{
+		display:flex;
+		width:50%;
+		height:auto;
+		flex-direction:column;
+		align-items:center;
+		
+	}
+	nav a:link{
+	 width:70%;	
+	 height:auto;
+	 display:flex;
+	 align-items:center;
+	}
+	
+	
+    .contacto{
+	 width:98%;
+	 height:auto;
+	 display:flex;
+	 flex-direction:column;
+	 text-align:center;
+	
+    }
+	
+	.contacto img{
+		width:15%;
+		height:auto;
+	}
+	
+	.social{
+		width:98%;
+		height:auto;
+		margin-bottom:30px;
+	}
+	
+	p{
+		line-height:30px;
+		padding:1%;
+		display:flex;
+		
+	}
+	
+	.portada img,.img img{
+		width:100%;
+		margin:auto;
+		height:auto;
+		
+		
+	}
+	.tar{
+		width:90%;
+		height:auto;
+		margin-bottom:10px;
+		
+	}
+	.logo2{
+		width:98%;
+		height:auto;
+		padding:1%;
+		text-align:center;
+		
+	}
+	
+	.iconos{
+		display:flex;
+		flex-direction:column;
+		align-items: flex-start;
+		width:90%;
+		align-items:center;
+	}
+	.iconos img{
+		width:60%;
+		height:auto;
+		padding-top:1%;
+		
+	}
+	
+	.habit{
+		display:flex;
+		flex-direction:column;
+		
+	}
+	
+	
+	
+	
+}
